@@ -231,7 +231,7 @@ $user->Save();
 
 You might notice that we are not assigning a value to userId. If there was no value assigned to the userId,
 VocanicDynamoDB connector assign a random unique value to the range key field. *(We have done this to resolve
-some issue we have faced due to DynamoDB not supporting auto incrementing fields)*
+some issue with DynamoDB not supporting auto incrementing fields)*
 
 
 
