@@ -5,8 +5,8 @@ description: A Quick Getting Started Guide to AWS Dynamo DB with Vocanic Dynamo 
 ---
 
 Dynamo DB is the well known NoSQL DB solution from Amazon. At Vocanic we've been using a bunch of services provided by AWS.
-While looking into way to improve the performance of our data storage mechanisms we though of doing some experiments with
-Dynamo DB. Vocanic Dynamo DB is a result of that. It is a wrapper class on top of [DynamoDb Marshaler](http://docs.aws.amazon.com/aws-sdk-php/v2/api/class-Aws.DynamoDb.Marshaler.html) 
+While looking into ways of improving the performance of our data storage mechanisms we though of doing some experiments with
+Dynamo DB. Vocanic Dynamo DB lib is a result of that. It is a wrapper class on top of [DynamoDb Marshaler](http://docs.aws.amazon.com/aws-sdk-php/v2/api/class-Aws.DynamoDb.Marshaler.html) 
 and add few function to help migrate our existing applications to Dynamo DB without much of a pain.
 
 This post will provide some essential tips on quickly setting up the test environment and start experimenting with Dynamo DB.
